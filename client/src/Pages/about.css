@@ -1,0 +1,23 @@
+.aboutpage {
+    margin-top: 4%;
+}
+.aboutpage .text-center {
+    background-color: rgba(165, 42, 42, 0.384);
+}
+.aboutpage .text-center .title-center{
+    font-size:xx-large;
+    color: rgb(54, 38, 38);
+}
+.aboutpage .text-center .p-center{
+    font-size: x-large;
+}
+.terms {
+    margin: 1%;
+    color: rgb(95, 58, 58);
+    size: 30px;
+}
+.privacy {
+    margin: 1%;
+    color: rgb(95, 58, 58);
+    size: 30px;
+}
