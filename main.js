@@ -17,7 +17,10 @@ app.use(express.urlencoded({limit: "10mb", extended: true}));
 connectDB();
 app.use('/api/users', usersRoutes);
 app.use('/api/posts', postsRoutes);
-const PORT = process.env.PORT;
+app.use((req, res) => {
+    res.send("Api is running...")
+})
+const PORT = process.env.POR || 7000
 app.listen(PORT, (err) =>
     err ? console.log(err) : console.log(`server is running on PORT ${PORT}`)
 );
